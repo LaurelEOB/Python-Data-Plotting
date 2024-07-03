@@ -25,5 +25,6 @@ if __name__ == "__main__":
     plt.xlabel("Time [min]")
     plt.ylabel("Resistance [ohms]")
     plt.legend(["Res 1","Res 2","Res 3"])
+    plt.text(45, 90, 'Not rotating last 20 min', fontsize = 10)
     plt.grid()
     plt.show()
